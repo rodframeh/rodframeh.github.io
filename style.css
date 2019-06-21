@@ -1,0 +1,251 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  margin: 0;
+  color: #444;
+}
+.content {
+  padding: 20px;
+  overflow: hidden;
+}
+h1 {
+  font-family: Georgia;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 250%;
+  letter-spacing: 3px;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: 	#333;
+  display: block;
+  clear: none;
+  overflow: hidden;
+}
+h2 {
+  float: left;
+  margin: 0 0 0 -200px;
+  color: 	#333;
+  font-size: 150%;
+  font-weight: normal;
+  font-style: italic;
+  font-family: Georgia;
+  position: relative;
+  max-width: 140px;
+  padding-left: 1pt;
+  padding-right: 1pt;
+}
+a {
+  color: #990003;
+}
+address {
+  width: 50%;
+  float: right;
+  margin-top: 10px;
+  font-style: normal;
+}
+address p {
+  margin: 1px;
+  text-align: right;
+}
+address img {
+  float: right;
+  margin: 0px -8px 0 15px;
+  width: 98px;
+  height: 98px;
+}
+.section {
+  border-top: solid 2px 	#ccc;
+  padding-left: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul li {
+  margin-bottom: 4px;
+}
+.section > h3:nth-of-type(1) {
+  margin-top: -17px;
+}
+.section h3 {
+  font-size: 100%;
+  margin: 0;
+  padding-top: 10px;
+}
+.section.experience h3{
+  border-top: solid 2px 	#ccc
+}
+.section h4 {
+  font-size: 9.5pt;
+  margin:  0;
+}
+.section h4 a {
+  color: #333;
+  text-decoration: none;
+}
+.section h4 a:hover {
+  color: #990003;
+  text-decoration: underline;
+}
+.period {
+  font-size: 80%;
+  font-style: italic;
+  margin: -20px 0 0 0;
+  float: right;
+  position: relative;
+  color: #555;
+}
+#interests p {
+  margin-top: 0;
+  /*color: #666;*/
+  font-size: 10pt;
+}
+/*Conocimientos*/
+div.tick {
+  display: none;
+}
+ul li p {
+  display: inline;
+  margin: 0 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  background-color: white !important;
+  background: none !important;
+}
+ul li p.go-up {
+  display: none;
+}
+ul li p:after {
+  content: ', ';
+}
+ul li p:last-child:after {
+  content: '.';
+}
+div.skills h4 {
+  float: none;
+  display: inline;
+  width: auto;
+  margin: 0;
+  color: #333;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  transform: rotate(0);
+}
+div.skills h4:after {
+  content: ': ';
+}
+.skills li {
+  list-style-type: disc;
+}
+.career {
+  clear: both;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Georgia;
+}
+.career p{
+  font-size: 130%;
+}
+
+@media only screen and (max-width: 610px), only screen and (max-device-width: 610px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  .content {
+    margin: 0;
+    padding: 4px;
+  }
+  h1 {
+    font-size: 200%;
+    text-align: center;
+  }
+  h2 {
+    float: none;
+    margin: 0 0 10px 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .section h3 {
+    border: none;
+  }
+  .section > h3:nth-of-type(1) {
+    margin-top: 0;
+  }
+  .career{
+    text-align: center;
+  }
+  .career p{
+    font-size: 100%;
+  }
+  address {
+    float: none;
+    margin-left: 25%;
+    font-style: italic;
+  }
+  address p {
+    text-align: center;
+  }
+  address img {
+    display: none;
+  }
+  .section {
+    padding-left: 4px;
+  }
+  .period {
+    font-size: 9pt;
+    float: none;
+    margin: 0;
+  }
+
+  /* conocimientos */
+  div.tick {
+    display: none;
+  }
+  ul li p {
+    display: inline;
+    margin: 0 !important;
+    border: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+    background-color: white !important;
+    background: none !important;
+  }
+  ul li p.go-up {
+    display: none;
+  }
+  ul li p:after {
+    content: ', ';
+  }
+  ul li p:last-child:after {
+    content: '.';
+  }
+  div.skills h4 {
+    float: none;
+    display: inline;
+    width: auto;
+    margin: 0;
+    color: #333;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+  }
+  div.skills h4:after {
+    content: ': ';
+  }
+  .skills li {
+    list-style-type: disc;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+
+
+
